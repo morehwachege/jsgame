@@ -1,0 +1,452 @@
+body {
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background-image: url("../images/bg.jpg");
+
+  color: white;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: salmon;
+  text-align: center;
+  text-shadow: 3px 3px 5px yellow;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 3px 3px 5px yellow;
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-style: italic;
+  color: black;
+  font-weight: bolds;
+  text-shadow: 3px 3px 5px yellow;
+}
+
+
+::selection {
+  background-color: yellow;
+}
+
+
+.firstP::first-line {
+  text-transform: capitalize;
+}
+
+.rules p:nth-child(2){
+  line-height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+    
+  
+}
+
+.rules p:nth-child(3){
+  line-height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.rules2 p:nth-child(2){
+  line-height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rules2 p:nth-child(3){
+  line-height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.rules3 p:nth-child(1){
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rules3 p:nth-child(2){
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.rules3 p:nth-child(3){
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.rules3 p:nth-child(4){
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.rules3 p:nth-child(5){
+  line-height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+#secondP::first-letter {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+#thirdP::first-letter {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px, 10%;
+}
+
+nav {
+  background: black;
+  height: 100px;
+  text-align: center;
+  overflow: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.nav1 {
+  margin-top: 40px;
+}
+.nav1 li {
+  display: inline-block;
+  margin: 0px;
+  padding-right: 15px;
+}
+
+.nav1 li a {
+  border-radius: 17px;
+  font-size: 25px;
+  background-color: lightgray;
+  border-style: solid;
+  border-color: gray;
+  padding: 12px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: black;
+}
+
+figure img {
+  width: 300px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.images_cricket figure {
+  width: 300px;
+  height: 250px;
+  background-color: gray;
+  color: black;
+  border-radius: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 30px;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 30px;
+}
+
+figure figcaption {
+  text-align: center;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  background-color: indianred;
+  color: white;
+  width: 87%;
+  margin-left: 6%;
+  margin-top: 350px;
+}
+
+.footer2 {
+  background-color: indianred;
+  margin-left: 6%;
+  margin-top: 750px;
+}
+
+#currentPage {
+  background-color: aqua;
+}
+
+ol {
+  border-style: solid;
+  list-style-type: upper-roman;
+  border-color: gold;
+  width: 520px;
+}
+
+ol li {
+  border-style: dashed;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+ol li:hover {
+  background-color: yellowgreen;
+}
+
+#t {
+  border-color: wheat;
+  border-style: dotted;
+  height: 450px;
+  width: 550px;
+}
+
+#t li {
+  border-style: double;
+  font-size: 20px;
+  padding: 20px;
+  line-height: 4px;
+  width: 480px;
+}
+
+#t li:hover {
+  background-image: url("../images/orange.jpg");
+}
+
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table td {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+thead {
+  font-style: italic;
+  background-color: khaki;
+  color: black;
+}
+thead th {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+tbody tr:hover {
+  background-color: salmon;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+table tfoot {
+  font-size: 19px;
+  align-items: center;
+  height: 75px;
+  text-align: center;
+  background-color: brown;
+  color: yellow;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+form{
+  line-height: 1.5;
+  color: black;
+  background-color: white;
+  padding-left: 25px;
+  
+}
+
+
+
+fieldset{
+  border: none;
+}
+
+legend{
+  font-weight: bold;
+  font-size: 22px;
+  padding: 5px;
+}
+
+#studentid{
+ width: 1000px;
+ padding: 6px;
+}
+.long input{
+  width: 1000px;
+  padding: 6px;
+  display: block;
+  
+}
+
+.userreg input{
+  width: 500px;
+  padding: 6px;
+}
+
+.userreg label:nth-child(2) {
+  margin-left: 500px;
+}
+
+.userreg2 input{
+  width: 500px;
+  padding: 6px;
+}
+
+.userreg2 input:nth-child(2) {
+  margin-left: 60px;
+}
+
+
+
+.dob label:nth-child(2) {
+  margin-left: 480px;
+}
+
+.courses input{
+  width: 500px;
+  padding: 6px;
+}
+
+.courses select {
+  margin-left: 60px;
+}
+
+
+form p{
+
+  font-weight: bold;
+}
+
+
+.contact_info label:nth-child(2){
+  margin-left: 295px;
+}
+
+.contact_info label:nth-child(3){
+  margin-left: 300px;
+}
+
+
+.contact_info2 input{
+  width: 300px;
+  padding: 6px;
+}
+
+
+.contact_info2 input:nth-child(2){
+  margin-left: 20px;
+}
+
+
+.contact_info2 input:nth-child(3){
+  margin-left: 20px;
+}
+
+
+.address2 input{
+  width: 450px;
+  padding: 6px;
+}
+
+
+.address2 input:nth-child(2){
+  margin-left: 100px;
+}
+
+
+
+.address label:nth-child(2){
+  margin-left: 500px;
+}
+
+
+.buttons button:nth-child(1){
+background-color: red;
+}
+
+
+.buttons button:nth-child(2){
+background-color: blue;
+}
+
+.box2 input:not(:first-child){
+margin-left: 200px;
+}
+
+#Evening{
+  margin-left: 100px;
+  }
+
+#Back{
+  margin-left: 100px;
+}
+
+#None{
+  margin-left: 100px;
+}
+/* error message box */
+.error{
+  width: 30vw;
+  background-color: red;
+  border-radius: 5px;
+}
+.error .btn-danger{
+  background-color: red;
+  border: none;
+  color: white;
+  margin-right: auto;
+}
+.error .btn-danger i.bi{
+  font-size: 2rem;
+}
+.error-cont{
+  padding: 10px;
+}
+.error-cont p{
+  text-align: center;
+  font-size: 15px;
+}
+/* end error message */

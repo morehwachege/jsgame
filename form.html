@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    
+  </head>
+
+  <body>
+    <header>
+      <div class="error">
+        <button class="btn btn-danger hide-errors"><i class="bi bi-x btn-large"></i></button>
+        <div class="error-cont">
+          <p class="error-each" id="student-check">Please use format abc.123.1234 for Student ID</p>
+          <p class="error-each" id="name-check">First name - use only letters up to 15 characters</p>
+          <p class="error-each" id="lname-check">Last name - use only letters up to 15 characters</p>
+          <p class="error-each" id="uname-check">Username - use only letters between 6 and 8 characters</p>
+          <p class="error-each" id="email-check">Email - use email format abc@example.com</p>
+          <p class="error-each" id="password-check">Password - use uppercase and lowercase letter, special characters and numbers 6 bi-telephone-fill 8 characters</p>
+          <p class="error-each" id="phone-check">Phone Number - use format (012) 345-6789 </p>
+          <p class="error-each" id="address-check">Enter your address </p>
+        </div>
+      </div>
+    </header>
+
+    <div id="container">
+      <form>
+        <fieldset>
+          <legend><i class="bi bi-info-circle-fill"></i> Student's info</legend>
+          <div class="long">
+            <label for="studentid"> Student ID</label>
+            <input
+              id="studentid"
+              placeholder="Enter Your Student ID (Only Digits)"
+            />
+          </div>
+
+          <div class="long">
+            <label for="Firstname"> Firstname</label>
+            <input id="Firstname" placeholder="Firstname" />
+          </div>
+
+          <div class="long">
+            <label for="Lastname">Lastname</label>
+            <input id="Lastname" placeholder="Lastname" />
+          </div>
+
+          <div class="userreg">
+            <label for="Username">Username</label>
+            <label for="Password">Password</label>
+          </div>
+
+          <div class="userreg2">
+            <input id="Username" placeholder="Username" />
+            <input id="Password" type="password" placeholder="Password" />
+          </div>
+
+          <div class="dob">
+            <label for="Dateofbirth"> Date Of Birth</label>
+            <label for="courses">Gender</label>
+          </div>
+
+          <div class="courses">
+            <input id="Dateofbirth" type="date" />
+            <select name="courses" id="courses">
+              <option value="--">Unspecified</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+
+          <legend><i class="bi bi-telephone-fill"></i> Contact</legend>
+
+          <div class="contact_info">
+            <label for="Email"> Email</label>
+
+            <label for="Phone"> Phone</label>
+          </div>
+
+          <div class="contact_info2">
+            <input id="Email" type="email" placeholder="john@example.com" />
+            <input id="Phone" placeholder="(514-999-9999)" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><i class="bi bi-person-video2"></i> Address</legend>
+          <div class="long">
+            <label for="Street">
+              Street <i class="bi bi-signpost-2-fill"></i
+            ></label>
+            <input id="Street" placeholder="Street name" />
+          </div>
+
+          <div class="long">
+            <label for="City"> City</label>
+            <input id="City" placeholder="City" />
+          </div>
+
+          <div class="address">
+            <label for="Province"> Province</label>
+            <label for="Potsal"> Postal Code</label>
+          </div>
+
+          <div class="address2">
+            <input id="Province" placeholder="Province" />
+            <input id="Postal" placeholder="A1A 1A1" />
+          </div>
+
+          <div class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
